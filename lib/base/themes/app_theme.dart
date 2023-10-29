@@ -30,6 +30,5 @@ class DarkTheme {
 }
 
 extension AppThemeExx on AppTheme {
-  ThemeData get data => DarkTheme.data;
-  // ThemeData get data => isDark ? DarkTheme.data : LightTheme.data;
+  ThemeData get data => isDark ? DarkTheme.data : LightTheme.data;
 }

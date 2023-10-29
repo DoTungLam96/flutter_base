@@ -72,6 +72,8 @@ dependencies:
   overlay_support: ^2.1.0
   device_info_plus: ^9.1.0
   intl_utils: ^2.8.5
+  introduction_screen: ^3.1.8
+  dropdown_button2: ^2.1.4
 
 dev_dependencies:
   flutter_test:
@@ -88,6 +90,11 @@ dev_dependencies:
 flutter:
   assets:
     - assets/images/
+  uses-material-design: false
+flutter_intl:
+  enabled: true
+  main_locale: vi
+  class_name: IBCoreLocale
 
   fonts:
     - family: SF-UI-Display
@@ -110,3 +117,8 @@ flutter:
           weight: 800
         - asset: assets/fonts/SF-UI-Display-Heavy.otf
           weight: 900
+# flutter_native_splash:
+#   #  color: "#0000FF"
+#   #  color_dark: "#FF0000"
+#   background_image: "./assets/images/ic_nine_river_native.png"
+#   image: "./assets/images/flutter.png"

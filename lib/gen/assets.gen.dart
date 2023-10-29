@@ -53,6 +53,13 @@ class $AssetsImagesGen {
   String get chartQenTrailingStop =>
       'assets/images/chart_qen_trailing_stop.svg';
 
+  /// File path: assets/images/flutter.png
+  AssetGenImage get flutter => const AssetGenImage('assets/images/flutter.png');
+
+  /// File path: assets/images/fullscreen.jpg
+  AssetGenImage get fullscreen =>
+      const AssetGenImage('assets/images/fullscreen.jpg');
+
   /// File path: assets/images/ic_Error.svg
   String get icError => 'assets/images/ic_Error.svg';
 
@@ -875,6 +882,30 @@ class $AssetsImagesGen {
   /// File path: assets/images/ic_xac_nhan_lenh.svg
   String get icXacNhanLenh => 'assets/images/ic_xac_nhan_lenh.svg';
 
+  /// File path: assets/images/img_intro_1.png
+  AssetGenImage get imgIntro1 =>
+      const AssetGenImage('assets/images/img_intro_1.png');
+
+  /// File path: assets/images/img_intro_2.png
+  AssetGenImage get imgIntro2 =>
+      const AssetGenImage('assets/images/img_intro_2.png');
+
+  /// File path: assets/images/img_intro_3.png
+  AssetGenImage get imgIntro3 =>
+      const AssetGenImage('assets/images/img_intro_3.png');
+
+  /// File path: assets/images/img_intro_4.png
+  AssetGenImage get imgIntro4 =>
+      const AssetGenImage('assets/images/img_intro_4.png');
+
+  /// File path: assets/images/img_intro_5.png
+  AssetGenImage get imgIntro5 =>
+      const AssetGenImage('assets/images/img_intro_5.png');
+
+  /// File path: assets/images/img_intro_6.png
+  AssetGenImage get imgIntro6 =>
+      const AssetGenImage('assets/images/img_intro_6.png');
+
   /// File path: assets/images/img_normal_trade_en.png
   AssetGenImage get imgNormalTradeEn =>
       const AssetGenImage('assets/images/img_normal_trade_en.png');
@@ -1030,6 +1061,8 @@ class $AssetsImagesGen {
         chartQenStop,
         chartQenStopLimit,
         chartQenTrailingStop,
+        flutter,
+        fullscreen,
         icError,
         icSSI,
         icAccountBackground,
@@ -1297,6 +1330,12 @@ class $AssetsImagesGen {
         icWithdrawUnsettledFunds,
         icXCircle,
         icXacNhanLenh,
+        imgIntro1,
+        imgIntro2,
+        imgIntro3,
+        imgIntro4,
+        imgIntro5,
+        imgIntro6,
         imgNormalTradeEn,
         imgNormalTradeVie,
         imgQuickTradeEn,

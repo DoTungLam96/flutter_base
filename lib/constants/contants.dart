@@ -17,3 +17,8 @@ const List<String> SAS_API_PATHS = [
   "/users/account-management/change-password",
   "/users/account-management/no-auth/reset-password"
 ];
+
+class Constants {
+  static const loginScreen = '/login/loginScreen';
+  static const homePage = '/home/homePage';
+}

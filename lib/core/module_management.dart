@@ -9,8 +9,10 @@ import 'package:base_flutter/core/navigation_service.dart';
 import 'package:base_flutter/generated/intl/messages_all.dart';
 import 'package:base_flutter/generated/l10n.dart';
 import 'package:base_flutter/network/network.dart';
+import 'package:base_flutter/screens/login/cubit/login_cubit.dart';
 import 'package:base_flutter/screens/login/widgets/loading_overlay.dart';
 import 'package:base_flutter/screens/login/widgets/loading_overlay_custom.dart';
+import 'package:base_flutter/screens/splash_screen/cubit/splash_cubit.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -46,6 +48,10 @@ class DefaultRoute {
       );
     }
   }
+}
+
+Route<dynamic> getPageRoute(Widget widget, RouteSettings settings) {
+  return MaterialPageRoute(builder: (_) => widget, settings: settings);
 }
 
 class ModuleManagement {
